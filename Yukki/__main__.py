@@ -230,10 +230,15 @@ async def initiate_bot():
 
 
 home_text_pm = f"""Hello ,
-My name is {BOT_NAME}.
-A Telegram Music+Video Streaming bot with some useful features.
-
-All commands can be used with: / """
+{BOT_NAME} can to stream any media on groups through the Telegram video call feature! example :
+┏━━━━━━━━━━━━━━
+┣• Play music.
+┣• Play video.
+┣• download song.
+┣• download video.
+┣• Search Youtube Link with inline.
+┗━━━━━━━━━━━━━━
+💡Find all of my command by clicking on the » Help « button!"""
 
 
 @app.on_message(filters.command("help") & filters.private)
