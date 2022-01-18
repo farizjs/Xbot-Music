@@ -1,7 +1,7 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
-from Yukki import BOT_USERNAME
+from Yukki import BOT_USERNAME, app
 from Yukki.Utilities.get_file_id import get_file_id
 
 
