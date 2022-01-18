@@ -380,9 +380,7 @@ async def help_parser(name, keyboard=None):
     return (
         """Hello {first_name},
 
-Click on the buttons for more information.
-
-All commands can be used with: /
+Below are all bot commands, please press one to find out what commands are in it.
 """.format(
             first_name=name
         ),
@@ -406,9 +404,7 @@ async def help_button(client, query):
     create_match = re.match(r"help_create", query.data)
     top_text = f"""Hello {query.from_user.first_name},
 
-Click on the buttons for more information.
-
-All commands can be used with: /
+Below are all bot commands, please press one to find out what commands are in it.
  """
     if mod_match:
         module = mod_match.group(1)
