@@ -21,6 +21,7 @@ SOFTWARE.
 
 from os import path
 from pyrogram import Client, filters
+from pyrogram import __version__ as pyrover
 from pyrogram.types import Message
 from time import time
 from datetime import datetime
@@ -35,7 +36,7 @@ from Yukki import (
     app,
 )
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
-from pyrogram import Client, filters
+
 
 
 START_TIME = datetime.utcnow()
@@ -72,6 +73,8 @@ async def alive(client, message):
 ⚡ **Bot : 6.0 LATEST**
 ⚡ **My Master : Fariz(https://t.me/farizsj)**
 ⚡ **Service Uptime : `{uptime}`**
+⚡ **Pyrogram Version : `{pyrover}`**
+⚡ **For bot commands use command » /help «**
 **Thanks For Using Me ❤️**""",
         reply_markup=InlineKeyboardMarkup(
             [
