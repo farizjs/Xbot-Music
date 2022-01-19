@@ -30,7 +30,6 @@ from Yukki import (
     BOT_USERNAME,
     ASSNAME1,
     ASSID1,
-    OWNER_ID,
     app,
 )
 
@@ -39,6 +38,7 @@ from config import (
     BOT_IMG,
     SUPPORT_GROUP,
     SUPPORT_CHANNEL,
+    OWNER_ID,
 )
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
