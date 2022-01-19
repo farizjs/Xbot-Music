@@ -17,6 +17,7 @@ SUDO_USERS = list(map(int, getenv("SUDO_USERS", "").split()))
 OWNER_ID = list(map(int, getenv("OWNER_ID", "").split()))
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
+OWNER_NAME = getenv("OWNER_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
