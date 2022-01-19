@@ -33,6 +33,13 @@ from Yukki import (
     OWNER_ID,
     app,
 )
+
+from config import (
+    OWNER_NAME as saya,
+    BOT_IMG,
+    SUPPORT_GROUP,
+    SUPPORT_CHANNEL,
+)
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
 
@@ -65,23 +72,23 @@ async def alive(client, message):
     uptime_sec = (current_time - START_TIME).total_seconds()
     uptime = await _human_time_duration(int(uptime_sec))
     await client.send_photo(message.chat.id,
-        photo=f"https://telegra.ph/file/d3f62131358c475dda9ae.jpg",
+        photo=f"{BOT_IMG}",
         caption=f"""**⚡ Holla {message.from_user.mention()}, I'm {bn}.**
 ⚡ **I'm Working Properly**
 ⚡ **Bot : 6.0 LATEST**
-⚡ **My Master : [Fariz](https://t.me/farizsj)**
-⚡ **Service Uptime : `{uptime}`**
+⚡ **My Master : [{saya}](tg://openmessage?user_id={OWNER_ID})**
+⚡ **Uptime : `{uptime}`**
 ⚡ **Pyrogram Version : `{pyrover}`**
-⚡ **For bot commands klick » /help «**
+⚡ **Please join my group and channel**
 **Thanks For Using Me ❤️**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "Support", url=f"https://t.me/BotMusicChat"
+                        "Support", url=f"https://t.me/{SUPPORT_GROUP}"
                     ),
                     InlineKeyboardButton(
-                        "Updates", url=f"https://t.me/BotMusicUpdates"
+                        "Updates", url=f"https://t.me/{SUPPORT_CHANNEL}"
                     )
                 ]
             ]
