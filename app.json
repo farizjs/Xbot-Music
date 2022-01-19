@@ -43,6 +43,11 @@
       "value": "",
       "required": true
     },
+    "BOT_IMG": {
+      "description": "Photo for your bot",
+      "value": "https://telegra.ph/file/d3f62131358c475dda9ae.jpg",
+      "required": true
+    },
     "MUSIC_BOT_NAME": {
       "description": "A name for your Music Bot.",
       "value": "",
