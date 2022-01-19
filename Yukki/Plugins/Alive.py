@@ -38,7 +38,7 @@ from config import (
     BOT_IMG,
     SUPPORT_GROUP,
     SUPPORT_CHANNEL,
-    OWNER_ID,
+    OWNER_USERNAME,
 )
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
@@ -76,7 +76,7 @@ async def alive(client, message):
         caption=f"""**⚡ Holla {message.from_user.mention()}, I'm {bn}.**
 ⚡ **I'm Working Properly**
 ⚡ **Bot : 6.0 LATEST**
-⚡ **My Master : [{saya}](tg://openmessage?user_id={OWNER_ID})**
+⚡ **My Master : [{saya}](t.me/{OWNER_USERNAME})**
 ⚡ **Uptime : `{uptime}`**
 ⚡ **Pyrogram Version : `{pyrover}`**
 ⚡ **Please join my group and channel**
