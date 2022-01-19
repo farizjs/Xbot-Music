@@ -229,7 +229,7 @@ async def initiate_bot():
     console.print(f"\n[red]Stopping Bot")
 
 
-home_text_pm = f"""Hello ,
+home_text_pm = f"""Hello
 {BOT_NAME} can to stream any media on groups through the Telegram video call feature! example :
 ┏━━━━━━━━━━━━━━
 ┣• Play music.
