@@ -68,6 +68,11 @@
       "value": "",
       "required": true
     },
+    "OWNER_USERMAME": {
+      "description": "Your username whitout @.",
+      "value": "",
+      "required": true
+    },
     "STRING_SESSION1": {
       "description": "A Pyrogram String Session. One Assistant is Compulsory.",
       "value": "",
