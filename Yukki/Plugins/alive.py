@@ -31,8 +31,6 @@ from Yukki import (
     ASSNAME1,
     ASSID1,
     OWNER_ID,
-    SUPPORT_CHANNEL,
-    SUPPORT_GROUP,
     app,
 )
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
@@ -80,10 +78,10 @@ async def alive(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        "Support", url=f"https://t.me/{SUPPORT_GROUP}"
+                        "Support", url=f"https://t.me/BotMusicChat"
                     ),
                     InlineKeyboardButton(
-                        "Updates", url=f"https://t.me/{SUPPORT_CHANNEL}"
+                        "Updates", url=f"https://t.me/BotMusicUpdates"
                     )
                 ]
             ]
