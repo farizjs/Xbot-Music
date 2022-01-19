@@ -69,7 +69,7 @@ async def alive(client, message):
         caption=f"""**⚡ Holla {message.from_user.mention()}, I'm {bn}.**
 ⚡ **I'm Working Properly**
 ⚡ **Bot : 6.0 LATEST**
-⚡ **My Master : Fariz(https://t.me/farizsj)**
+⚡ **My Master : [Fariz](https://t.me/farizsj)**
 ⚡ **Service Uptime : `{uptime}`**
 ⚡ **Pyrogram Version : `{pyrover}`**
 ⚡ **For bot commands use command » /help «**
