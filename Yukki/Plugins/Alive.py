@@ -72,7 +72,7 @@ async def alive(client, message):
 ⚡ **My Master : [Fariz](https://t.me/farizsj)**
 ⚡ **Service Uptime : `{uptime}`**
 ⚡ **Pyrogram Version : `{pyrover}`**
-⚡ **For bot commands use command » /help «**
+⚡ **For bot commands klick » /help «**
 **Thanks For Using Me ❤️**""",
         reply_markup=InlineKeyboardMarkup(
             [
