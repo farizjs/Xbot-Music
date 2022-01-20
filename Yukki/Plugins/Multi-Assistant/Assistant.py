@@ -13,6 +13,7 @@ from Yukki import (ASS_CLI_1, ASS_CLI_2, ASS_CLI_3, ASS_CLI_4, ASS_CLI_5,
 from Yukki.Database import (approve_pmpermit, disapprove_pmpermit, is_on_off,
                             is_pmpermit_approved)
 
+from config import OWNER_USERNAME
 flood = {}
 
 
@@ -54,7 +55,7 @@ async def awaiting_message(client, message):
         )
         return await client.block_user(user_id)
     await message.reply_text(
-        f"Hello, I am {MUSIC_BOT_NAME}'s Assistant.\n\nPlease dont spam here , else you'll get blocked.\nFor more Help start :- @{BOT_USERNAME}"
+        f"**⛑️ {MUSIC_BOT_NAME} ASSISTANT PMPERMIT ⛑️**\n\nHello, I am a Assistant {MUSIC_BOT_NAME}.\n\n**Rules**\n-Please dont spam here\nor you will be blocked automatically\n-Don't Spam Songs so you don't Error.\n\n 👉 **SEND INVITE LINK OR GROUP USERNAME, IF ASSISTANT CANNOT JOIN YOUR GROUP.**\nFor more Help start :- @{BOT_USERNAME}\n\nMy Owner :- @{OWNER_USERMAME}"
     )
 
 
