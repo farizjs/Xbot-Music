@@ -55,7 +55,7 @@ async def repo(client, message):
         caption=f"""**⚡ Holla {message.from_user.mention()}.**
 **Klick button below for {bn} repository 💙**
 **Spesial credits for [Team Yukki💚](https://github.com/NotReallyShikhar/YukkiMusicBot)**
-**Don't forget to subscribe my [channel 💛]({UPDATES_CHANNEL})**
+**Don't forget to subscribe my [channel 💛]({SUPPORT_CHANNEL})**
 **Thanks For Using Me ❤️**""",
         reply_markup=InlineKeyboardMarkup(
             [
