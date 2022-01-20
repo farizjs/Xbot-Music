@@ -61,8 +61,10 @@ async def repo(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        "Support", url=f"https://github.com/fjgaming212/Xbot-Music"
+                        "Repo", url=f"https://github.com/fjgaming212/Xbot-Music"
                     ),
+                    InlineKeyboardButton(
+                        "Deploy", url=f"https://telegram.dog/XTZ_HerokuBot?start=ZmpnYW1pbmcyMTIvWEJvdC1NdXNpYyBtYXN0ZXI"
                     )
                 ]
             ]
