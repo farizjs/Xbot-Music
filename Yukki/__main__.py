@@ -10,7 +10,7 @@ from rich.console import Console
 from rich.table import Table
 from youtubesearchpython import VideosSearch
 
-from config import (LOG_GROUP_ID, LOG_SESSION, STRING1, STRING2, STRING3,
+from config import (BOT_IMG, LOG_GROUP_ID, LOG_SESSION, STRING1, STRING2, STRING3,
                     STRING4, STRING5)
 from Yukki import (ASS_CLI_1, ASS_CLI_2, ASS_CLI_3, ASS_CLI_4, ASS_CLI_5,
                    ASSID1, ASSID2, ASSID3, ASSID4, ASSID5, ASSNAME1, ASSNAME2,
@@ -238,7 +238,7 @@ home_text_pm = f"""Hello
 ┣• download video.
 ┣• Search Youtube Link with inline.
 ┗━━━━━━━━━━━━━━
-💡Find all of my command by clicking on the » Help « button!"""
+[💡]({BOT_IMG}) Find all of my command by clicking on the » Help « button!"""
 
 
 @app.on_message(filters.command("help") & filters.private)
